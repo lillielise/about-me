@@ -1,4 +1,11 @@
 # about-me
 
 -----------------------
-Lab 02: About Me, with a guessing game
+Summary
+
+This project is an about me page with an interactive guessing game for the user. 
+
+-----------------------
+Purpose
+
+To learn more about me of course!
