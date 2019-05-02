@@ -1,5 +1,12 @@
 # about-me
 
+Lab 4 Pair Programming
+Lillian was the navigator
+Sara was the driver
+
+We added functions to questions 1 through 7
+
+
 -----------------------
 
 Summary
