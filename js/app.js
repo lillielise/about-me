@@ -4,6 +4,7 @@ console.log('The user said their name is ' + userName);
 
 var correctAnswers = 0;
 
+// Question 1
 var answerOne = prompt('Hi ' + userName + '! Welcome to my guessing game! First question, have I ever lived in a foreign country?').toLowerCase();
 if (answerOne === 'yes' || answerOne === 'y') {
   alert('You are correct ' + userName + '! I studied abroad in Seoul, South Korea and lived in Sydney, Australia for 6 months!');
@@ -18,6 +19,7 @@ if (answerOne === 'yes' || answerOne === 'y') {
   console.log('The user entered an incorrect input for number 1');
 }
 
+// Question 2
 var answerTwo = prompt('Is pizza my favorite food?').toLowerCase();
 if (answerTwo === 'no' || answerTwo === 'n') {
   alert('You are correct ' + userName + '! I would choose Thai, Korean, or Vietnamese food over pizza anyday.');
@@ -31,7 +33,7 @@ if (answerTwo === 'no' || answerTwo === 'n') {
   console.log('The user entered an incorrect input for number 2');
 }
 
-
+// Question 3
 var answerThree = prompt('Am I from Seattle?').toLowerCase();
 if (answerThree === 'yes' || answerThree === 'y') {
   alert('You are correct ' + userName + '! I\'m a born and raised Seattleite!');
@@ -45,6 +47,7 @@ if (answerThree === 'yes' || answerThree === 'y') {
   console.log('The user entered an incorrect input for number 3');
 }
 
+// Question 4
 var answerFour = prompt('Do I watch Game of Thrones?').toLowerCase();
 if (answerFour === 'no' || answerFour === 'n') {
   alert('You are correct ' + userName + '! I never got into it, I\'m more into comedy shows. Some of my favorites are: Bob\'s Burgers, 30 Rock, and Schitt\'s Creek.');
@@ -58,6 +61,7 @@ if (answerFour === 'no' || answerFour === 'n') {
   console.log('The user entered an incorrect input for number 4');
 }
 
+// Question 5
 var answerFive = prompt('Do I speak any languages other than English?').toLowerCase();
 if (answerFive === 'no' || answerFive === 'n') {
   alert('You are correct ' + userName + '! I wish! I want to learn French.');
@@ -73,14 +77,15 @@ if (answerFive === 'no' || answerFive === 'n') {
 
 for (var i = 0; i < 4; i++) {
   var answerSix = prompt ('What is my favorite number?');
+  // answerSix = parseInt(answerSix);
   if (answerSix === '3') {
     alert('You are correct! 3 is my favorite number!');
     correctAnswers++;
     console.log('The user got the correct answer for question 6 and has ' + correctAnswers + ' correct answer(s)');
-    i = 5;
+    break;
   } else if (answerSix < 3) {
     alert('Too low, try again!');
-  } else if (answerSix > 3){
+  } else {
     alert('Too high, try again!');
   }
   if (i === 3){
@@ -100,6 +105,13 @@ for (var x = 0; x < 6; x++) {
   } else {
     alert('Wrong, try again!');
   }
+  //
+  // for (var i = 0; i < favoriteAnimals.length; i++) {
+  //   if (answerSeven === favoriteAnimals[i]){
+  //   alert('You Got It!');
+  // }
+  // }
+
   if (x === 5) {
     alert('You\'re out of guesses! My favorite animals are Cats, Dogs and Manatees');
     console.log('The user got the incorrect answer for question 7 and has ' + correctAnswers + ' correct answer(s)');
