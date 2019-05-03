@@ -10,9 +10,9 @@ h1::first-letter {
 
 h1 {
   font-weight: bold;
+  text-transform: uppercase; 
   margin-bottom: 10px;
   font-size: 25px;
-  width: 40%;
 }
 
 h2 {
@@ -27,22 +27,23 @@ h2 {
   margin: 10px;
   border: 5px dotted black;
   display: in-line block;
-  width: 60%;
   background-color: white;
 }
 
 article {
-  text-align: center;
+  text-align: left;
   padding: 10px;
   margin: 10px;
   border: 2px solid black;
   display: in-line block;
-  width: 60%;
   background-color: white;
 }
 
 body {
   background-color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 60%;
   opacity: .75;
 }
 
@@ -51,6 +52,5 @@ footer {
 }
 
 ol li {
-  list-style-type: disc;
   margin-left: 10px;
 }

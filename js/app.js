@@ -24,7 +24,7 @@ function userQuestions(){
     }
   }
 }
-userQuestions();
+
 
 // Question 6
 function questionSix() {
@@ -47,7 +47,7 @@ function questionSix() {
     }
   }
 }
-questionSix();
+
 
 // Question 7
 function questionSeven() {
@@ -68,6 +68,9 @@ function questionSeven() {
 
   }
 }
+
+userQuestions();
+questionSix();
 questionSeven();
 
 alert('Thanks for playing my guessing game ' + userName + '! you got ' + correctAnswers + '/7 answers correct!');
