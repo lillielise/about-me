@@ -3,6 +3,7 @@ var userName = prompt('Hey! Ready to play a guessing game about me? Let\'s start
 console.log('The user said their name is ' + userName);
 var questions = ['Have I ever lived in a foreign country?','Is pizza my favorite food?','Am I from Seattle?','Do I watch Game of Thrones?','Do I speak any languages other than English?'];
 var response = ['I studied abroad in Seoul, South Korea and lived in Sydney, Australia for 6 months!', 'I would choose Thai, Korean, or Vietnamese food over pizza anyday.', 'I\'m a born and raised Seattleite!', 'I never got into it, I\'m more into comedy shows. Some of my favorites are: Bob\'s Burgers, 30 Rock, and Schitt\'s Creek.', 'I wish! I want to learn French.'];
+var answers = ['yes', 'no', 'yes','no','no'];
 var correctAnswers = 0;
 
 // Question 1 through 5
