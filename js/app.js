@@ -10,7 +10,7 @@ var correctAnswers = 0;
 function userQuestions(){
   for (var y = 0; y < questions.length; y++){
     var userAnswer = prompt (questions[y]).toLocaleLowerCase();
-    if (userAnswer === (answers[y])) {
+    if (userAnswer === (answers[y]) || userAnswer === (answers[y][0])) {
       alert ('You got it ' + userName + '! ' + response[y]);
       console.log(userName + ' guessed the correct answer for number ' + y);
       correctAnswers++;
